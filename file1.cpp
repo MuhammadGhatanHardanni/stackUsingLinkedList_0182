@@ -63,5 +63,9 @@ class Stack {
         } // Return the value of the top node
     }
 
-    
+    // IsEmpty opperation: check if the stack is empty
+    bool isEmpty()
+    {
+        return top == NULL; // Return ture if the top pointer is null, indicating an empty stack
+    }
 };

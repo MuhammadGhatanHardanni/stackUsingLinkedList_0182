@@ -116,6 +116,8 @@ int main ()
             }
             break;
             case 4:
+            cout << "Exiting Program." << endl;
+            break;
         }
     }
 }
